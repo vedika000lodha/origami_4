@@ -1,0 +1,47 @@
+h1 {
+    color: rgb(245, 253, 255);
+}
+
+.header * {
+    border: solid;
+} 
+
+.header{
+    background-color: rgb(85, 85, 85);
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.origami{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item:hover{
+    transform: scale(1.2);
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+    color: black;
+}
+
+body{
+    background-color: rgb(197, 197, 197);
+}
+
+img{
+    border : 5px solid rgb(34, 34, 34)
+}
